@@ -1,10 +1,9 @@
 from functools import partial
 from selectolax.parser import HTMLParser
-# .utils এর বদলে শুধু utils ব্যবহার করুন
 from utils import Cache, Time, get_logger, leagues, network
+import json
 
 log = get_logger(__name__)
-urls: dict[str, dict[str, str | float]] = {}
 TAG = "STRMCNTR"
 CACHE_FILE = Cache(TAG, exp=86_400)
 API_URL = "https://backend.streamcenter.live/api/Parties"
@@ -22,83 +21,90 @@ CATEGORIES = {
 }
 
 async def process_event(url: str, url_num: int) -> str | None:
-    # এখানে '=' এর বদলে ':=' ব্যবহার করা হয়েছে
     if not (html_data := await network.request(url, log=log)):
-        log.warning(f"URL {url_num}) Failed to load url.")
-        return
-
+        return None
     soup = HTMLParser(html_data.content)
     iframe = soup.css_first("iframe")
-
     if not iframe or not (iframe_src := iframe.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe element found.")
-        return
+        return None
+    
+    m3u8_id = iframe_src.rsplit('=', 1)[-1]
+    # আপনার দেওয়া নির্দিষ্ট হেডার ফরম্যাট অনুযায়ী লিঙ্ক তৈরি
+    headers = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz"
+    return f"https://mainstreams.pro/hls/{m3u8_id}.m3u8{headers}"
 
-    log.info(f"URL {url_num}) Captured M3U8")
-
-    # এখানে ভেতরের কোটেশন সিঙ্গেল ('=') করা হয়েছে
-    return f"https://mainstreams.pro/hls/{iframe_src.rsplit('=', 1)[-1]}.m3u8"
-
-async def get_events() -> list[dict[str, str]]:
+async def get_events() -> list[dict]:
     events = []
     if not (r := await network.request(API_URL, params={"pageNumber": 1, "pageSize": 500}, log=log)):
         return events
-
-    now = Time.clean(Time.now())
-    api_data: list[dict] = r.json()
-
+    api_data = r.json()
+    now = Time.now()
     for stream_group in api_data:
-        category_id: int = stream_group.get("categoryId")
-        name: str = stream_group.get("gameName")
-        iframe: str = stream_group.get("videoUrl")
-        event_time: str = stream_group.get("beginPartie")
+        category_id = stream_group.get("categoryId")
+        name = stream_group.get("gameName", " ")
+        iframe = stream_group.get("videoUrl")
+        event_time_str = stream_group.get("beginPartie")
+        if not (category_id and iframe and event_time_str): continue
+        
+        event_dt = Time.from_str(event_time_str)
+        if not (sport := CATEGORIES.get(category_id)): continue
 
-        if not (name and category_id and iframe and event_time):
-            continue
-
-        event_dt = Time.from_str(event_time, timezone="CET")
-        if event_dt.date() != now.date():
-            continue
-
-        if not (sport := CATEGORIES.get(category_id)):
-            continue
+        # টিম এ এবং টিম বি আলাদা করার চেষ্টা (যেমন: "Team A vs Team B")
+        teams = name.split(" vs ") if " vs " in name else [name, " "]
+        teamA = teams[0]
+        teamB = teams[1] if len(teams) > 1 else " "
 
         events.append({
-            "sport": sport, 
-            "event": name, 
-            "link": iframe.split("<")[0], 
-            "timestamp": now.timestamp()
+            "sport": sport,
+            "eventName": name,
+            "teamAName": teamA,
+            "teamBName": teamB,
+            "link": iframe.split("<")[0],
+            "date": event_dt.strftime("%Y-%m-%d"),
+            "time": event_dt.strftime("%H:%M")
         })
     return events
 
 async def scrape() -> None:
-    cached_urls = CACHE_FILE.load()
-    # ক্যাশ থাকলে সরাসরি রিটার্ন না করে নতুন করে স্ক্র্যাপ করার লজিক রাখা ভালো
-    log.info('Scraping from "https://streamcenter.xyz"')
+    log.info('Scraping started for new JSON format...')
+    events = await get_events()
+    final_output = []
 
-    if events := await get_events():
-        log.info(f"Processing {len(events)} URL(s)")
+    if events:
         for i, ev in enumerate(events, start=1):
-            handler = partial(process_event, url=(link := ev["link"]), url_num=i)
-            url = await network.safe_process(handler, url_num=i, semaphore=network.HTTP_S, log=log)
-            
-            sport, event, ts = ev["sport"], ev["event"], ev["timestamp"]
-            key = f"[{sport}] {event} ({TAG})"
-            tvg_id, logo = leagues.get_tvg_info(sport, event)
+            stream_url = await process_event(ev["link"], i)
+            if not stream_url: continue
 
+            # আপনার দেওয়া নতুন JSON স্ট্রাকচার
             entry = {
-                "url": url,
-                "logo": logo,
-                "base": "https://streamcenter.xyz",
-                "timestamp": ts,
-                "id": tvg_id or "Live.Event.us",
-                "link": link,
+                "category": ev["sport"],
+                "categoryLogo": "",
+                "date": ev["date"],
+                "end_date": "",
+                "end_time": "",
+                "eventLogo": "",
+                "eventName": ev["eventName"],
+                "link_names": ["DlSports"],
+                "show_noti": False,
+                "streaming_links": [
+                    {
+                        "api": "",
+                        "link": stream_url,
+                        "name": "DlSports",
+                        "tokenApi": ""
+                    }
+                ],
+                "teamAFlag": " ",
+                "teamAName": ev["teamAName"],
+                "teamBFlag": " ",
+                "teamBName": ev["teamBName"],
+                "time": ev["time"],
+                "visible": True
             }
-            cached_urls[key] = entry
-            if url:
-                urls[key] = entry
-        log.info(f"Collected and cached {len(urls)} event(s)")
-    else:
-        log.info("No events found")
+            final_output.append(entry)
+            log.info(f"URL {i}) Processed: {ev['eventName']}")
 
-    CACHE_FILE.write(cached_urls)
+    # ফাইনাল আউটপুট JSON ফাইলে সেভ করা
+    with open("strmcntr_cache.json", "w", encoding="utf-8") as f:
+        json.dump(final_output, f, indent=2)
+    log.info(f"Saved {len(final_output)} events to strmcntr_cache.json")
