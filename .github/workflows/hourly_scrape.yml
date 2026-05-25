@@ -2,22 +2,23 @@ name: Hourly Stream Update
 
 on:
   schedule:
-    # প্রতি ৫ মিনিট পর পর স্ক্রিপ্টটি অটোমেটিক রান হবে
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # চাইলে আপনি নিজেও ম্যানুয়ালি রান করতে পারবেন
+    - cron: '*/15 * * * *' # ব্যাকআপ হিসেবে প্রতি ১৫ মিনিট পর পর চেক করবে
+  workflow_dispatch: # ম্যানুয়াল রান করার জন্য
+  repository_dispatch:
+    types: [site_updated] # এই নামের ইভেন্ট আসলেই সাথে সাথে রান হবে
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # ফাইলে পরিবর্তন করে পুশ করার পারমিশন
+      contents: write
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v5 # লেটেস্ট v5 এ আপডেট করা হয়েছে
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
@@ -35,6 +36,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add strmcntr_cache.json
-        # যদি ফাইলে কোনো পরিবর্তন না আসে, তবে এরর না দেখিয়ে স্কিপ করবে
         git commit -m "Auto Update: $(date)" || echo "No changes to commit"
         git push
