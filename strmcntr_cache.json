@@ -3,9 +3,10 @@
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "02:40",
+    "end_date": "2026-05-26",
+    "end_time": "05:40",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Seattle Mariners at Athletics Athletics",
     "link_names": [
       "DlSports"
@@ -23,16 +24,16 @@
     "teamAName": "Seattle Mariners at Athletics Athletics",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "02:40",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "02:10",
+    "end_date": "2026-05-26",
+    "end_time": "05:10",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Colorado Rockies at Los Angeles Dodgers",
     "link_names": [
       "DlSports"
@@ -50,16 +51,16 @@
     "teamAName": "Colorado Rockies at Los Angeles Dodgers",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "02:10",
     "visible": true
   },
   {
     "category": "Basketball",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "01:00",
+    "end_date": "2026-05-26",
+    "end_time": "04:00",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "New York Knicks at Cleveland Cavaliers",
     "link_names": [
       "DlSports"
@@ -77,16 +78,16 @@
     "teamAName": "New York Knicks at Cleveland Cavaliers",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "01:00",
     "visible": true
   },
   {
     "category": "Hockey",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "01:00",
+    "end_date": "2026-05-26",
+    "end_time": "04:00",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Carolina Hurricanes at Montreal Canadiens",
     "link_names": [
       "DlSports"
@@ -104,16 +105,16 @@
     "teamAName": "Carolina Hurricanes at Montreal Canadiens",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "01:00",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "00:07",
+    "end_date": "2026-05-26",
+    "end_time": "03:07",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Miami Marlins at Toronto Blue Jays",
     "link_names": [
       "DlSports"
@@ -131,16 +132,16 @@
     "teamAName": "Miami Marlins at Toronto Blue Jays",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "00:07",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-26",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "00:05",
+    "end_date": "2026-05-26",
+    "end_time": "03:05",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Houston Astros at Texas Rangers",
     "link_names": [
       "DlSports"
@@ -158,16 +159,16 @@
     "teamAName": "Houston Astros at Texas Rangers",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "00:05",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "23:40",
+    "end_date": "2026-05-26",
+    "end_time": "02:40",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Philadelphia Phillies at San Diego Padres",
     "link_names": [
       "DlSports"
@@ -185,16 +186,16 @@
     "teamAName": "Philadelphia Phillies at San Diego Padres",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "23:40",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "23:10",
+    "end_date": "2026-05-26",
+    "end_time": "02:10",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Washington Nationals at Cleveland Guardians",
     "link_names": [
       "DlSports"
@@ -212,16 +213,16 @@
     "teamAName": "Washington Nationals at Cleveland Guardians",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "23:10",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "22:05",
+    "end_date": "2026-05-26",
+    "end_time": "01:05",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Arizona Diamondbacks at San Francisco Giants",
     "link_names": [
       "DlSports"
@@ -239,16 +240,16 @@
     "teamAName": "Arizona Diamondbacks at San Francisco Giants",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "22:05",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "21:10",
+    "end_date": "2026-05-26",
+    "end_time": "00:10",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Cincinnati Reds at New York Mets",
     "link_names": [
       "DlSports"
@@ -266,16 +267,16 @@
     "teamAName": "Cincinnati Reds at New York Mets",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "21:10",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "20:40",
+    "end_date": "2026-05-25",
+    "end_time": "23:40",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "New York Yankees at Kansas City Royals",
     "link_names": [
       "DlSports"
@@ -293,16 +294,16 @@
     "teamAName": "New York Yankees at Kansas City Royals",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "20:40",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "19:10",
+    "end_date": "2026-05-25",
+    "end_time": "22:10",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Minnesota Twins at Chicago White Sox",
     "link_names": [
       "DlSports"
@@ -320,16 +321,16 @@
     "teamAName": "Minnesota Twins at Chicago White Sox",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "19:10",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "19:10",
+    "end_date": "2026-05-25",
+    "end_time": "22:10",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "St. Louis Cardinals at Milwaukee Brewers",
     "link_names": [
       "DlSports"
@@ -347,16 +348,16 @@
     "teamAName": "St. Louis Cardinals at Milwaukee Brewers",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "19:10",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "18:35",
+    "end_date": "2026-05-25",
+    "end_time": "21:35",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Chicago Cubs at Pittsburgh Pirates",
     "link_names": [
       "DlSports"
@@ -374,16 +375,16 @@
     "teamAName": "Chicago Cubs at Pittsburgh Pirates",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "18:35",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-05-25",
-    "end_date": "",
-    "end_time": "",
-    "eventLogo": "",
+    "time": "18:35",
+    "end_date": "2026-05-25",
+    "end_time": "21:35",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Tampa Bay Rays at Baltimore Orioles",
     "link_names": [
       "DlSports"
@@ -401,7 +402,6 @@
     "teamAName": "Tampa Bay Rays at Baltimore Orioles",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "18:35",
     "visible": true
   }
 ]
