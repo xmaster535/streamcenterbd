@@ -2,7 +2,7 @@ name: Hourly Stream Update
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/5 * * * *' # প্রতি ৫ মিনিট পর পর চেক করবে সাইটে আপডেট আছে কিনা
   workflow_dispatch:
 
 jobs:
