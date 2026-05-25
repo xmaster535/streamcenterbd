@@ -1,12 +1,17 @@
+import asyncio
+from datetime import timedelta
 from functools import partial
+import json
 from selectolax.parser import HTMLParser
 from utils import Cache, Time, get_logger, leagues, network
-import json
 
 log = get_logger(__name__)
 TAG = "STRMCNTR"
 CACHE_FILE = Cache(TAG, exp=86_400)
 API_URL = "https://backend.streamcenter.live/api/Parties"
+
+# প্রতিটি ইভেন্টের জন্য নির্ধারিত লোগো লিঙ্ক
+DEFAULT_EVENT_LOGO = "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png"
 
 CATEGORIES = {
     4: "Basketball",
@@ -29,7 +34,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         return None
     
     m3u8_id = iframe_src.rsplit('=', 1)[-1]
-    # আপনার দেওয়া নির্দিষ্ট হেডার ফরম্যাট অনুযায়ী লিঙ্ক তৈরি
+    # হেডার ফরম্যাট অনুযায়ী লিঙ্ক তৈরি
     headers = "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz"
     return f"https://mainstreams.pro/hls/{m3u8_id}.m3u8{headers}"
 
@@ -38,7 +43,7 @@ async def get_events() -> list[dict]:
     if not (r := await network.request(API_URL, params={"pageNumber": 1, "pageSize": 500}, log=log)):
         return events
     api_data = r.json()
-    now = Time.now()
+    
     for stream_group in api_data:
         category_id = stream_group.get("categoryId")
         name = stream_group.get("gameName", " ")
@@ -49,7 +54,10 @@ async def get_events() -> list[dict]:
         event_dt = Time.from_str(event_time_str)
         if not (sport := CATEGORIES.get(category_id)): continue
 
-        # টিম এ এবং টিম বি আলাদা করার চেষ্টা (যেমন: "Team A vs Team B")
+        # ইভেন্ট শেষ হওয়ার সময় হিসেব করা (স্ট্যান্ডার্ড ৩ ঘণ্টা বা ১৮০ মিনিট যোগ করা হয়েছে)
+        end_dt = event_dt + timedelta(hours=3)
+
+        # টিম এ এবং টিম বি আলাদা করার চেষ্টা
         teams = name.split(" vs ") if " vs " in name else [name, " "]
         teamA = teams[0]
         teamB = teams[1] if len(teams) > 1 else " "
@@ -60,13 +68,15 @@ async def get_events() -> list[dict]:
             "teamAName": teamA,
             "teamBName": teamB,
             "link": iframe.split("<")[0],
-            "date": event_dt.strftime("%Y-%m-%d"),
-            "time": event_dt.strftime("%H:%M")
+            "start_date": event_dt.strftime("%Y-%m-%d"),
+            "start_time": event_dt.strftime("%H:%M"),
+            "end_date": end_dt.strftime("%Y-%m-%d"),
+            "end_time": end_dt.strftime("%H:%M")
         })
     return events
 
 async def scrape() -> None:
-    log.info('Scraping started for new JSON format...')
+    log.info('Scraping started for new JSON format with Start/End times and default logo...')
     events = await get_events()
     final_output = []
 
@@ -75,14 +85,15 @@ async def scrape() -> None:
             stream_url = await process_event(ev["link"], i)
             if not stream_url: continue
 
-            # আপনার দেওয়া নতুন JSON স্ট্রাকচার
+            # আপডেট করা JSON স্ট্রাকচার
             entry = {
                 "category": ev["sport"],
                 "categoryLogo": "",
-                "date": ev["date"],
-                "end_date": "",
-                "end_time": "",
-                "eventLogo": "",
+                "date": ev["start_date"],       # Start Date
+                "time": ev["start_time"],       # Start Time
+                "end_date": ev["end_date"],     # End Date
+                "end_time": ev["end_time"],     # End Time
+                "eventLogo": DEFAULT_EVENT_LOGO, # আপনার দেওয়া নির্দিষ্ট লোগো লিঙ্ক
                 "eventName": ev["eventName"],
                 "link_names": ["DlSports"],
                 "show_noti": False,
@@ -98,13 +109,14 @@ async def scrape() -> None:
                 "teamAName": ev["teamAName"],
                 "teamBFlag": " ",
                 "teamBName": ev["teamBName"],
-                "time": ev["time"],
                 "visible": True
             }
             final_output.append(entry)
-            log.info(f"URL {i}) Processed: {ev['eventName']}")
+            log.info(f"URL {i}) Processed: {ev['eventName']} [{ev['start_time']} - {ev['end_time']}]")
 
     # ফাইনাল আউটপুট JSON ফাইলে সেভ করা
     with open("strmcntr_cache.json", "w", encoding="utf-8") as f:
+        json.dump(final_output, f, indent=2)
+    log.info(f"Saved {len(final_output)} events to strmcntr_cache.json")
         json.dump(final_output, f, indent=2)
     log.info(f"Saved {len(final_output)} events to strmcntr_cache.json")
