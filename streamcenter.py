@@ -54,7 +54,7 @@ async def get_events() -> list[dict]:
         event_dt = Time.from_str(event_time_str)
         if not (sport := CATEGORIES.get(category_id)): continue
 
-        # ইভেন্ট শেষ হওয়ার সময় হিসেব করা (স্ট্যান্ডার্ড ৩ ঘণ্টা বা ১৮০ মিনিট যোগ করা হয়েছে)
+        # ইভেন্ট শেষ হওয়ার সময় হিসেব করা
         end_dt = event_dt + timedelta(hours=3)
 
         # টিম এ এবং টিম বি আলাদা করার চেষ্টা
@@ -89,11 +89,11 @@ async def scrape() -> None:
             entry = {
                 "category": ev["sport"],
                 "categoryLogo": "",
-                "date": ev["start_date"],       # Start Date
-                "time": ev["start_time"],       # Start Time
-                "end_date": ev["end_date"],     # End Date
-                "end_time": ev["end_time"],     # End Time
-                "eventLogo": DEFAULT_EVENT_LOGO, # আপনার দেওয়া নির্দিষ্ট লোগো লিঙ্ক
+                "date": ev["start_date"],
+                "time": ev["start_time"],
+                "end_date": ev["end_date"],
+                "end_time": ev["end_time"],
+                "eventLogo": DEFAULT_EVENT_LOGO,
                 "eventName": ev["eventName"],
                 "link_names": ["DlSports"],
                 "show_noti": False,
@@ -114,9 +114,7 @@ async def scrape() -> None:
             final_output.append(entry)
             log.info(f"URL {i}) Processed: {ev['eventName']} [{ev['start_time']} - {ev['end_time']}]")
 
-    # ফাইনাল আউটপুট JSON ফাইলে সেভ করা
+    # ফাইল ওপেন ও সেভ করার লাইনের ইনডেন্টেশন ঠিক করা হয়েছে
     with open("strmcntr_cache.json", "w", encoding="utf-8") as f:
-        json.dump(final_output, f, indent=2)
-    log.info(f"Saved {len(final_output)} events to strmcntr_cache.json")
         json.dump(final_output, f, indent=2)
     log.info(f"Saved {len(final_output)} events to strmcntr_cache.json")
