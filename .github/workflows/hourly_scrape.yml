@@ -2,26 +2,28 @@ name: Hourly Stream Update
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # প্রতি ৫ মিনিট পর পর চেক করবে সাইটে আপডেট আছে কিনা
-  workflow_dispatch:
+    # প্রতি ৫ মিনিট পর পর স্ক্রিপ্টটি অটোমেটিক রান হবে
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # চাইলে আপনি নিজেও ম্যানুয়ালি রান করতে পারবেন
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # ফাইলে পরিবর্তন করে পুশ করার পারমিশন
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5 # লেটেস্ট v5 এ আপডেট করা হয়েছে
       with:
         python-version: '3.10'
 
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install aiohttp selectolax
 
     - name: Run Scraper
@@ -33,5 +35,6 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add strmcntr_cache.json
+        # যদি ফাইলে কোনো পরিবর্তন না আসে, তবে এরর না দেখিয়ে স্কিপ করবে
         git commit -m "Auto Update: $(date)" || echo "No changes to commit"
         git push
