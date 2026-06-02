@@ -2,8 +2,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "05:40",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Los Angeles Dodgers at Arizona Diamondbacks",
@@ -14,7 +14,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -29,8 +29,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "05:40",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "New York Mets at Seattle Mariners",
@@ -41,7 +41,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -56,8 +56,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "05:38",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Colorado Rockies at Los Angeles Angels",
@@ -68,7 +68,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -81,13 +81,13 @@
     "visible": true
   },
   {
-    "category": "Football",
+    "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
-    "end_time": "05:00",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
+    "end_time": "04:10",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Uzbekistan at Canada",
+    "eventName": "Pittsburgh Pirates at Houston Astros",
     "link_names": [
       "DlSports"
     ],
@@ -95,23 +95,50 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/b0h5fNwDKH.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
     ],
     "teamAFlag": " ",
-    "teamAName": "Uzbekistan at Canada",
+    "teamAName": "Pittsburgh Pirates at Houston Astros",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "02:00",
+    "time": "01:10",
     "visible": true
   },
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
+    "end_time": "04:05",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Athletics Athletics at Chicago Cubs",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Athletics Athletics at Chicago Cubs",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "01:05",
+    "visible": true
+  },
+  {
+    "category": "Baseball",
+    "categoryLogo": "",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "03:45",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Texas Rangers at St. Louis Cardinals",
@@ -122,7 +149,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/fskjanach24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -137,8 +164,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "03:40",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Chicago White Sox at Minnesota Twins",
@@ -149,7 +176,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -164,8 +191,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "03:40",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "San Francisco Giants at Milwaukee Brewers",
@@ -176,7 +203,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -191,8 +218,35 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-02",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
+    "end_time": "03:15",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Toronto Blue Jays at Atlanta Braves",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Toronto Blue Jays at Atlanta Braves",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "00:15",
+    "visible": true
+  },
+  {
+    "category": "Baseball",
+    "categoryLogo": "",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
     "end_time": "03:10",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Kansas City Royals at Cincinnati Reds",
@@ -203,7 +257,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -218,8 +272,62 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-01",
-    "end_date": "2026-06-02",
+    "date": "2026-06-03",
+    "end_date": "2026-06-03",
+    "end_time": "03:05",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Cleveland Guardians at New York Yankees",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Cleveland Guardians at New York Yankees",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "00:05",
+    "visible": true
+  },
+  {
+    "category": "Baseball",
+    "categoryLogo": "",
+    "date": "2026-06-02",
+    "end_date": "2026-06-03",
+    "end_time": "02:45",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Baltimore Orioles at Boston Red Sox",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Baltimore Orioles at Boston Red Sox",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "23:45",
+    "visible": true
+  },
+  {
+    "category": "Baseball",
+    "categoryLogo": "",
+    "date": "2026-06-02",
+    "end_date": "2026-06-03",
     "end_time": "02:45",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Miami Marlins at Washington Nationals",
@@ -230,7 +338,7 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
@@ -245,8 +353,8 @@
   {
     "category": "Baseball",
     "categoryLogo": "",
-    "date": "2026-06-01",
-    "end_date": "2026-06-02",
+    "date": "2026-06-02",
+    "end_date": "2026-06-03",
     "end_time": "02:40",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Detroit Tigers at Tampa Bay Rays",
@@ -270,13 +378,40 @@
     "visible": true
   },
   {
+    "category": "Baseball",
+    "categoryLogo": "",
+    "date": "2026-06-02",
+    "end_date": "2026-06-03",
+    "end_time": "02:40",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "San Diego Padres at Philadelphia Phillies",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "San Diego Padres at Philadelphia Phillies",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "23:40",
+    "visible": true
+  },
+  {
     "category": "Football",
     "categoryLogo": "",
-    "date": "2026-06-01",
-    "end_date": "2026-06-01",
-    "end_time": "21:30",
+    "date": "2026-06-02",
+    "end_date": "2026-06-02",
+    "end_time": "22:45",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "North Macedonia at Türkiye",
+    "eventName": "Ghana at Wales",
     "link_names": [
       "DlSports"
     ],
@@ -290,20 +425,20 @@
       }
     ],
     "teamAFlag": " ",
-    "teamAName": "North Macedonia at Türkiye",
+    "teamAName": "Ghana at Wales",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "18:30",
+    "time": "19:45",
     "visible": true
   },
   {
     "category": "Football",
     "categoryLogo": "",
-    "date": "2026-06-01",
-    "end_date": "2026-06-01",
-    "end_time": "21:00",
+    "date": "2026-06-02",
+    "end_date": "2026-06-02",
+    "end_time": "20:00",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Sweden at Norway",
+    "eventName": "Belgium at Croatia",
     "link_names": [
       "DlSports"
     ],
@@ -317,10 +452,10 @@
       }
     ],
     "teamAFlag": " ",
-    "teamAName": "Sweden at Norway",
+    "teamAName": "Belgium at Croatia",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "18:00",
+    "time": "17:00",
     "visible": true
   }
 ]
