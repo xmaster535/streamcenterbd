@@ -619,32 +619,5 @@
     "teamBName": " ",
     "time": "17:15",
     "visible": true
-  },
-  {
-    "category": "Motor Sport",
-    "categoryLogo": "",
-    "date": "2026-06-14",
-    "end_date": "2026-06-14",
-    "end_time": "17:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "MSC Cruises Barcelona-Catalunya Grand Prix",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "MSC Cruises Barcelona-Catalunya Grand Prix",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "14:00",
-    "visible": true
   }
 ]
