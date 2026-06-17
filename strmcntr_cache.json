@@ -322,59 +322,5 @@
     "teamBName": " ",
     "time": "20:10",
     "visible": true
-  },
-  {
-    "category": "Baseball",
-    "categoryLogo": "",
-    "date": "2026-06-17",
-    "end_date": "2026-06-17",
-    "end_time": "22:15",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "San Diego Padres at St. Louis Cardinals",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "San Diego Padres at St. Louis Cardinals",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "19:15",
-    "visible": true
-  },
-  {
-    "category": "Baseball",
-    "categoryLogo": "",
-    "date": "2026-06-17",
-    "end_date": "2026-06-17",
-    "end_time": "22:10",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Detroit Tigers at Houston Astros",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Detroit Tigers at Houston Astros",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "19:10",
-    "visible": true
   }
 ]
