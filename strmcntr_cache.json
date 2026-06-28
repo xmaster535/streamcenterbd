@@ -1,5 +1,86 @@
 [
   {
+    "category": "Football",
+    "categoryLogo": "",
+    "date": "2026-06-30",
+    "end_date": "2026-06-30",
+    "end_time": "05:00",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Morocco at Netherlands",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Morocco at Netherlands",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "02:00",
+    "visible": true
+  },
+  {
+    "category": "Football",
+    "categoryLogo": "",
+    "date": "2026-06-29",
+    "end_date": "2026-06-30",
+    "end_time": "00:30",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Paraguay at Germany",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Paraguay at Germany",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "21:30",
+    "visible": true
+  },
+  {
+    "category": "Football",
+    "categoryLogo": "",
+    "date": "2026-06-29",
+    "end_date": "2026-06-29",
+    "end_time": "21:00",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Japan at Brazil",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Japan at Brazil",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "18:00",
+    "visible": true
+  },
+  {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-06-29",
@@ -132,87 +213,6 @@
     "teamBFlag": " ",
     "teamBName": " ",
     "time": "21:00",
-    "visible": true
-  },
-  {
-    "category": "Baseball",
-    "categoryLogo": "",
-    "date": "2026-06-28",
-    "end_date": "2026-06-28",
-    "end_time": "23:15",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Athletics Athletics at Los Angeles Angels",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Athletics Athletics at Los Angeles Angels",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "20:15",
-    "visible": true
-  },
-  {
-    "category": "Basketball",
-    "categoryLogo": "",
-    "date": "2026-06-28",
-    "end_date": "2026-06-28",
-    "end_time": "23:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Portland Fire at Washington Mystics",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Portland Fire at Washington Mystics",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "20:00",
-    "visible": true
-  },
-  {
-    "category": "Football",
-    "categoryLogo": "",
-    "date": "2026-06-28",
-    "end_date": "2026-06-28",
-    "end_time": "23:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Canada at South Africa",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Canada at South Africa",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "20:00",
     "visible": true
   }
 ]
