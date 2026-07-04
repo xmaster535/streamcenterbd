@@ -592,32 +592,5 @@
     "teamBName": " ",
     "time": "16:00",
     "visible": true
-  },
-  {
-    "category": "Motor Sport",
-    "categoryLogo": "",
-    "date": "2026-07-04",
-    "end_date": "2026-07-04",
-    "end_time": "15:30",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Pirelli British Grand Prix",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Pirelli British Grand Prix",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "12:30",
-    "visible": true
   }
 ]
