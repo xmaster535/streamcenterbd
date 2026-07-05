@@ -189,6 +189,33 @@
     "visible": true
   },
   {
+    "category": "Basketball",
+    "categoryLogo": "",
+    "date": "2026-07-05",
+    "end_date": "2026-07-06",
+    "end_time": "00:30",
+    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
+    "eventName": "Miami Heat at Los Angeles Lakers",
+    "link_names": [
+      "DlSports"
+    ],
+    "show_noti": false,
+    "streaming_links": [
+      {
+        "api": "",
+        "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "name": "DlSports",
+        "tokenApi": ""
+      }
+    ],
+    "teamAFlag": " ",
+    "teamAName": "Miami Heat at Los Angeles Lakers",
+    "teamBFlag": " ",
+    "teamBName": " ",
+    "time": "21:30",
+    "visible": true
+  },
+  {
     "category": "Baseball",
     "categoryLogo": "",
     "date": "2026-07-05",
@@ -216,13 +243,13 @@
     "visible": true
   },
   {
-    "category": "Basketball",
+    "category": "Football",
     "categoryLogo": "",
     "date": "2026-07-05",
     "end_date": "2026-07-06",
-    "end_time": "00:30",
+    "end_time": "00:00",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Miami Heat at Los Angeles Lakers",
+    "eventName": "Norway at Brazil",
     "link_names": [
       "DlSports"
     ],
@@ -230,16 +257,16 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
     ],
     "teamAFlag": " ",
-    "teamAName": "Miami Heat at Los Angeles Lakers",
+    "teamAName": "Norway at Brazil",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "21:30",
+    "time": "21:00",
     "visible": true
   },
   {
@@ -291,33 +318,6 @@
     ],
     "teamAFlag": " ",
     "teamAName": "Milwaukee Brewers at Arizona Diamondbacks",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "21:00",
-    "visible": true
-  },
-  {
-    "category": "Football",
-    "categoryLogo": "",
-    "date": "2026-07-05",
-    "end_date": "2026-07-06",
-    "end_time": "00:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Norway at Brazil",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Norway at Brazil",
     "teamBFlag": " ",
     "teamBName": " ",
     "time": "21:00",
@@ -411,33 +411,6 @@
     "end_date": "2026-07-05",
     "end_time": "23:00",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Brooklyn Nets at Milwaukee Bucks",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Brooklyn Nets at Milwaukee Bucks",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "20:00",
-    "visible": true
-  },
-  {
-    "category": "Basketball",
-    "categoryLogo": "",
-    "date": "2026-07-05",
-    "end_date": "2026-07-05",
-    "end_time": "23:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
     "eventName": "Dallas Wings at Toronto Tempo",
     "link_names": [
       "DlSports"
@@ -459,13 +432,13 @@
     "visible": true
   },
   {
-    "category": "Baseball",
+    "category": "Basketball",
     "categoryLogo": "",
     "date": "2026-07-05",
     "end_date": "2026-07-05",
-    "end_time": "22:30",
+    "end_time": "23:00",
     "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "St. Louis Cardinals at Chicago Cubs",
+    "eventName": "Brooklyn Nets at Milwaukee Bucks",
     "link_names": [
       "DlSports"
     ],
@@ -473,70 +446,16 @@
     "streaming_links": [
       {
         "api": "",
-        "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
+        "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
         "name": "DlSports",
         "tokenApi": ""
       }
     ],
     "teamAFlag": " ",
-    "teamAName": "St. Louis Cardinals at Chicago Cubs",
+    "teamAName": "Brooklyn Nets at Milwaukee Bucks",
     "teamBFlag": " ",
     "teamBName": " ",
-    "time": "19:30",
-    "visible": true
-  },
-  {
-    "category": "Baseball",
-    "categoryLogo": "",
-    "date": "2026-07-05",
-    "end_date": "2026-07-05",
-    "end_time": "22:00",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Chicago White Sox at Cleveland Guardians",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Chicago White Sox at Cleveland Guardians",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "19:00",
-    "visible": true
-  },
-  {
-    "category": "Baseball",
-    "categoryLogo": "",
-    "date": "2026-07-05",
-    "end_date": "2026-07-05",
-    "end_time": "21:35",
-    "eventLogo": "https://i.ibb.co.com/Z1YSQKbc/Chat-GPT-Image-May-9-2026-01-31-16-AM.png",
-    "eventName": "Minnesota Twins at New York Yankees",
-    "link_names": [
-      "DlSports"
-    ],
-    "show_noti": false,
-    "streaming_links": [
-      {
-        "api": "",
-        "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streamcenter.xyz&Origin=https://streamcenter.xyz",
-        "name": "DlSports",
-        "tokenApi": ""
-      }
-    ],
-    "teamAFlag": " ",
-    "teamAName": "Minnesota Twins at New York Yankees",
-    "teamBFlag": " ",
-    "teamBName": " ",
-    "time": "18:35",
+    "time": "20:00",
     "visible": true
   }
 ]
